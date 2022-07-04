@@ -16,7 +16,7 @@ const Data = () => {
         console.log(details)
       return (
         <div>
-            <div ><p className='header'>React js -Exercise:</p></div>
+            <div ><p className='header'>React js-Exercise:</p></div>
            {  
           details.map((article, index) => 
            <div className='Card-style' key={index}>
